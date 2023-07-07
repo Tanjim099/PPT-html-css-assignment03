@@ -1,0 +1,19 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    .image-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  
