@@ -1,0 +1,27 @@
+In responsive web design, breakpoints are specific points or ranges
+of viewport widths at which the layout and design of a webpage adapt
+to provide an optimal user experience. Breakpoints are defined based
+on common device sizes or the specific needs of the website.
+
+The purpose of breakpoints is to ensure that a webpage's
+content and design elements are displayed in a readable and visually pleasing
+manner across various devices, such as desktop computers, tablets, and mobile phones.
+By using breakpoints, you can apply different CSS rules and modify the layout
+and styling of your webpage at specific viewport widths.
+
+/* Default styles for all screen sizes */
+
+/* Styles for screens up to 600px */
+@media screen and (max-width: 600px) {
+  /* CSS rules for screens up to 600px */
+}
+
+/* Styles for screens between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  /* CSS rules for screens between 601px and 900px */
+}
+
+/* Styles for screens above 900px */
+@media screen and (min-width: 901px) {
+  /* CSS rules for screens above 900px */
+}

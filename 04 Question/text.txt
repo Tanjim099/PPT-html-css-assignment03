@@ -1,0 +1,16 @@
+Media queries for print media are specifically designed to target the printing output
+of web content, allowing you to apply customized styles and formatting specifically
+for print purposes. The purpose of using media queries for print media is to optimize
+the printed version of your webpage, ensuring that it is well-formatted, legible,
+and visually appealing when users choose to print it.
+
+When users decide to print a webpage, the default styles and layout that
+are suitable for screen display may not translate well to the printed page.
+Text may be too small, background colors may be unnecessary, and certain elements
+might not make sense in a print context. Media queries for print media address
+these concerns by providing the ability to override or modify the default
+styles for printing.
+
+@media print {
+  /* CSS rules for print media */
+}
